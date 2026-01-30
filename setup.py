@@ -25,7 +25,7 @@ setup(
     description='This is a package for calling coding SNPs in human leukocyte antigen (HLA) genes from next-generation sequencing (NGS) data',
     author='zhoulin',
     author_email='270194248@qq.com',
-    url='https://github.com/zhoulin8908/HLA-spark',
+    url='https://github.com/BioCodeZLin/hla_spark',
     packages=find_packages(),
     package_dir={"hla_spark":"hla_spark"},
     package_data={

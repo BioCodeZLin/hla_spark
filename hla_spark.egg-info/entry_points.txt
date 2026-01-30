@@ -1,0 +1,2 @@
+[console_scripts]
+hla_spark = hla_spark.hla_spark:hla_spark
