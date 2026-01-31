@@ -5,22 +5,21 @@
 
 ![graphical_abstract](https://github.com/user-attachments/assets/635530ed-bfb3-404c-a1e3-ba079ef1d3aa)
 
-[**hla\_spark**](https://github.com/HLA-spark/hla_spark) is an HLA SNP caller for analysing a sample data. 
+[**hla\_spark**](https://github.com/BioCodeZLin/hla_spark) is an HLA SNP caller for analysing a sample data. 
 
-[**hla\_spark\_merge**](https://github.com/HLA-spark/hla_spark_merge) is used for merging and annotating SNP results of multiple samples to facilitate the further phenotype-association analysis.
+[**hla\_spark\_merge**](https://github.com/BioCodeZLin/hla_spark_merge) is used for merging and annotating SNP results of multiple samples to facilitate the further phenotype-association analysis.
 
 ## **hla\_spark** Installation
 
 
 Download the package from Github:
 
-    git clone https://github.com/HLA-spark/hla_spark.git
+    git clone https://github.com/BioCodeZLin/hla_spark.git
+
+ extract the data files to the **hla\_spark** path
+
     cd hla_spark/hla_spark
-
-Download data.tar.gz from Github in the path of **hla_spark/hla_spark/**, and extract the data files 
-
-    wget -c https://github.com/HLA-spark/raw/refs/heads/main/hla_spark/data.tar.gz?download=
-    tar -zxvf data.tar.gz
+    tar -zxvf ../data.tar.gz
 
 Install Anaconda if you do not have it.
 
